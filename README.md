@@ -765,6 +765,8 @@ $ sh run.sh
 
 Now you can view your new page at the default port 8080: [http://127.0.0.1:8080/user_favorite_datatypes](http://127.0.0.1:8080/user_favorite_datatypes).
 
+![image](https://github.com/user-attachments/assets/f99e7c3a-464d-4e41-9682-a3fcf14161ae)
+
 ### 7.7 Commit your code
 
 ```
