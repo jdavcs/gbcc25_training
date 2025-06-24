@@ -774,6 +774,10 @@ Now you can view your new page at the default port 8080: [http://127.0.0.1:8080/
 
 ![image](https://github.com/user-attachments/assets/f99e7c3a-464d-4e41-9682-a3fcf14161ae)
 
+Try it out! Try to mark and unmark datatypes.
+
+(Note: if nothing happens, and your browser console output shows an error, check whether you are logged in!)
+
 ### 7.7 Commit your code
 
 ```
