@@ -635,10 +635,16 @@ The following command starts the client development server at port 8081:
 make client-dev-server
 ```
 
-Now run Galaxy (on port 8080):
+Now run Galaxy (on port 8080), but we can skip the client build this time, because we will running the dev server proxied against 8080:
 
 ```
-sh run.sh
+GALAXY_SKIP_CLIENT_BUILD=1 sh run.sh
+```
+
+OR, we can run the equivalent Make command:
+
+```
+make skip-client
 ```
 
 **NOTE: You must login before proceeding.** Since this is a new Galaxy, you'll need to register (follow the normal registration steps, except you don't need a secure password since it's your local development copy.
@@ -756,8 +762,7 @@ async function unmark(datatype) {
 
 
 
-As a final step, run the `run.sh` command to ensure that the client code is rebuilt (once you stop
-the dev server, you won't be able to see your changes until the code is rebuilt):
+If you'd like to see the same changes show up on the original proxy, run the `run.sh` command to ensure that the client code is rebuilt (since we won't be skipping the client build this time):
 
 ```
 $ sh run.sh
