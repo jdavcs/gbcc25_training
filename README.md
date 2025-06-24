@@ -165,7 +165,7 @@ $ git add --all
 And, finally, commit, giving your commit an appropriate description:
 
 ```
-$ get commit -m "Add UserFavoriteDatatype model"
+$ git commit -m "Add UserFavoriteDatatype model"
 ```
 
 And we're done with this step!
@@ -632,19 +632,19 @@ When we work on the client, it helpes to have a development server running that 
 The following command starts the client development server at port 8081:
 
 ```
-make client-dev-server
+$ make client-dev-server
 ```
 
 Now run Galaxy (on port 8080), but we can skip the client build this time, because we will be running the dev server proxied against 8080:
 
 ```
-GALAXY_SKIP_CLIENT_BUILD=1 sh run.sh
+$ GALAXY_SKIP_CLIENT_BUILD=1 sh run.sh
 ```
 
 OR, we can run the equivalent Make command:
 
 ```
-make skip-client
+$ make skip-client
 ```
 
 **NOTE: You must login before proceeding.** Since this is a new Galaxy, you'll need to register (follow the normal registration steps, except you don't need a secure password since it's your local development copy.
