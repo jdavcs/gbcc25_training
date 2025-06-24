@@ -635,7 +635,7 @@ The following command starts the client development server at port 8081:
 make client-dev-server
 ```
 
-Now run Galaxy (on port 8080), but we can skip the client build this time, because we will running the dev server proxied against 8080:
+Now run Galaxy (on port 8080), but we can skip the client build this time, because we will be running the dev server proxied against 8080:
 
 ```
 GALAXY_SKIP_CLIENT_BUILD=1 sh run.sh
