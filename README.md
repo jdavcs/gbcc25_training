@@ -396,6 +396,8 @@ Then we can run the new test we have just added:
 pytest lib/galaxy_test/api/test_users.py::TestUsersApi::test_favorite_datatypes
 ```
 
+(Note: if you see an error referring to `psycopg*` modules, run `pip uninstall pytest-postgresql`)
+
 Of course, the test will fail, but that's expected: we haven't implemented the API yet. 
 
 Before we move on to the next step, let's check our code and commit.
