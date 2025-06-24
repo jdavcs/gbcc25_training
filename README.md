@@ -762,7 +762,7 @@ async function unmark(datatype) {
 
 
 
-If you'd like to see the same changes show up on the original proxy, run the `run.sh` command to ensure that the client code is rebuilt (since we won't be skipping the client build this time):
+If you'd like to see the same changes show up on the original proxy (on port 8080), run the `run.sh` command to ensure that the client code is rebuilt (since we won't be skipping the client build this time):
 
 ```
 $ sh run.sh
